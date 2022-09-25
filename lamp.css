@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: #1d2026;
+    min-height: 100vh;
+    width:100%;
+    color: white;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav .menu-img {
+    width: 37px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo {
+   width: 160px;
+   cursor: pointer;
+}
+
+nav ul {
+  flex: 1;  
+  text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(236, 154, 45);
+    text-transform: capitalize;
+}
+
+button {
+   background: #efefef; 
+   height: 29px;
+   width: 60px;
+   border-radius: 20px;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   transition: background 0.4s, margin-left ;
+}
+
+button span {
+    display: block;
+    background: #999;
+    height: 26px;
+    width: 26px;
+    border-radius: 49%;
+    margin-left: 2px;
+}
+
+.lamp-container {
+    position: absolute;
+    top: -20px;
+    left:22%;
+    width: 200px;
+}
+
+.lamp {
+    width: 100%;
+}
+
+.light {
+    position: absolute;
+    top: 97%;
+    left: 49%;
+    transform: translateX(-49%);
+    width: 700px;
+    margin-left: -10px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.text-container {
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 49%;
+    padding: 40px 0;
+}
+
+.text-container h1 {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 20px 0px;
+    font-family: cursive;
+}
+
+.text-container p {
+ line-height: 1.4;
+ color: rgb(236, 154, 45);
+ font-size: 19px;
+}
+
+
+
+.text-container a {
+    text-decoration: none;
+    background:#64058a;
+    padding: 14px 40px ;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin-top: 29px;
+    border-radius: 29px;
+    margin: 20px 0;
+    cursor: pointer;
+    text-transform: capitalize;
+    letter-spacing: 1.6;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    justify-content:flex-end ;
+}
+
+.control .line {
+    width:249px ;
+    height: 4px;
+    background: white;
+    margin: 0 20px;
+    border-radius: 2px;
+}
+
+.control .line span {
+    width: 49%;
+    height: 8px;
+    margin-top: -2px;
+    border-radius: 4px;
+    background: #00986f;
+    display: block;
+}
+
+.active {
+    background: #64058a;
+
+}
+
+.active span {
+    background: white;
+    margin-left: 29px;
+}
+
+.on {
+    opacity: 1;
+}
+
+
