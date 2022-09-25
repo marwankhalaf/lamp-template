@@ -1,3 +1,5 @@
+// start javascript
+
 let btn = document.getElementById("btn");
 let light = document.getElementById("light");
 
